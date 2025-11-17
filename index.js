@@ -20,7 +20,7 @@ saveBtn.addEventListener("click", (event) => {
 
     const fullName = document.getElementById("fullName").value;
     const birthYear = document.getElementById("birthYear").value;
-    const email = document.getElementById("email").value.toLowerCase().trim();
+    const email = document.getElementById("email").value.trim();
     const hobby = document.getElementById("hobby").value;
     const gender = document.getElementById("gender").value;
 
